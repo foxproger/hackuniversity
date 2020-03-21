@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '81.16.28.1',
-	'username' => 'u846988995_leonid_9999',
-	'password' => 'z2~K/t[^=[rraK#:J*',
-	'database' => 'u846988995_balsticsea',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'balsticsea',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
