@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+}
+
+body{
+  background: #f6f6f6;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.img_zog{
+  background: url(../img/swimmer.jpg) no-repeat center center fixed;
+  padding-top: 220px;
+  padding-bottom: 230px;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.content_img{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content_img h2, #about_us h4, .card-body-cascade h4, .center_info_div h4, .center_info_div_h4{
+  background: rgb(43, 187, 173);
+  display: initial;
+  font-size: 50px;
+  padding: 0 13px;
+  color: #fff;
+}
+
+.content_img p{
+  background: #414146;
+  display: inline;
+  font-size: 20px;
+  padding: 0 4px;
+  color: #fff;
+}
+
+#about_us h4, .card-body-cascade h4, .center_info_div h4, .center_info_div_h4{
+  font-size: 25px;
+  margin-bottom: 20px
+}
+
+#about_us p{
+  margin-top: 20px
+}
+
+.developer li{
+  list-style: none;
+}
+
+.my_map{
+	width: auto;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.my_section_map{
+	position: relative;
+	top: -40px;
+}
+
+.rating{
+	margin-top: 80px;
+}
+
+.rating a{
+	color: rgb(255, 160, 0);
+}
+
+.rating a:hover{
+	text-decoration: none;
+}
+
+.center_info_a{
+	color: black;
+}
+
+.center_info_a:hover{
+	text-decoration: none;
+	color: grey;
+}
+
+.img_bulding_rating{
+	height: 100px;
+	width: 100px;
+}
+
+.img_text_rating{
+	position: relative;
+	top: -95px;
+	right: -115px;
+	color: gray;
+}
+
+.my_float{
+	float: right;
+	position: relative;
+	top: -100px;
+}
+
+.my_-_mb25{
+	margin-bottom: -70px;
+}
+
+#about_us p span {
+  margin-left: 20px;
+}
+
+.chool{
+	position: relative;
+  top: 42px;
+  left: 115px;
+}
+
+.section_rating{
+	position: relative;
+  left: 115px;
+  top: -24px;
+}
+
+
+.rating_star{
+	float: right;
+	position: relative;
+    top: -86px;
+    left: -40px;
+}
+
+.rating_star_int{
+	float: right;
+  position: relative;
+  right: -178px;
+  top: -80px;
+}
+
+.center_info{
+	margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.my_btn{
+	background-color: #2bbbad!important;
+  border-color: #2bbbad!important;
+	color: #fff;
+	margin-top: -1px;
+}
+
+.my_card_center_info{
+	padding-bottom: 30px;
+}
+
+.my_color_yellow{
+  color: rgb(255, 160, 0);
+}
+
+.my_color_grey{
+	color: grey;
+}
+
+.center_info_position_raiteng{
+	position: relative;
+  right: -200px;
+  top: -24px;
+}

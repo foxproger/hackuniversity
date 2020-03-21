@@ -1,0 +1,17 @@
+
+
+        <canvas></canvas>
+
+
+		    <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/qrcodelib.js"></script>
+        <script type="text/javascript" src="js/webcodecamjquery.js"></script>
+        <script type="text/javascript">
+            var arg = {
+                resultFunction: function(result) {
+                    $('body').append($('<li>' + result.format + ': ' + result.code + '</li>'));
+                }
+            };
+            $("canvas").WebCodeCamJQuery(arg).data().plugin_WebCodeCamJQuery.play();
+        </script>
+    
